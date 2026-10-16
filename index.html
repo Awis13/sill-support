@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sill support</title>
+<style>
+  :root { color-scheme: light dark; --bg:#fff; --fg:#1b1b1f; --mute:#62626b; --link:#3a5bd9; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16161a; --fg:#ececf1; --mute:#a0a0ab; --link:#8ea4ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.55 -apple-system, system-ui, sans-serif; }
+  main { max-width: 38rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+  p, li { color: var(--fg); } .mute { color: var(--mute); } a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sill</h1>
+  <p class="mute">A glass thermometer for Bluetooth temperature and humidity sensors.</p>
+
+  <h2>Support</h2>
+  <p>Questions, bug reports or a sensor that does not show up: open an issue at
+     <a href="https://github.com/Awis13/sill-support/issues">github.com/Awis13/sill-support/issues</a>.
+     Please include the sensor model and the iOS version.</p>
+
+  <h2>Works with</h2>
+  <ul>
+    <li>Xiaomi Mijia LYWSDCGQ (the round one with the e-ink screen)</li>
+    <li>Xiaomi, Qingping and similar sensors running ATC1441 or pvvx custom firmware</li>
+    <li>BTHome v2 sensors</li>
+    <li>Several Govee models (they update while the app is open)</li>
+  </ul>
+  <p class="mute">Sill is an independent app. It is not affiliated with, endorsed by or sponsored by Xiaomi, Govee, Qingping or the BTHome project; their names are used only to say which sensors work.</p>
+
+  <h2>Privacy</h2>
+  <p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
